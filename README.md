@@ -40,17 +40,23 @@ The **File Hider Project** is a secure file management system built in Java that
     ```
 
 ## Usage
+Before starting to use this project make sure that you add your unique password for this application to work in (File-hider/src/main/java/service/SendOTPService.java) this file (Commented)
+1. **SignUp**:
+   - When you run the application, you’ll be prompted to choose an option to signin or signup
+   - Make sure to create a new user and authenticate with OTP.
+   - You can now
+   - login to the project and access the file hiding.
 
-1. **Login**:
+2. **Login**:
    - When you run the application, you’ll be prompted to enter your username.
    - An OTP will be sent to your registered email address.
    - Enter the OTP to authenticate and gain access to the file management system.
 
-2. **Hiding Files**:
+3. **Hiding Files**:
    - After authentication, you can choose to hide files by providing the file path.
    - The file will be encrypted before hiding.
 
-3. **Accessing Hidden Files**:
+4. **Accessing Hidden Files**:
    - You can retrieve a hidden file by providing the appropriate decryption key.
    
 ## MVC Architecture Breakdown

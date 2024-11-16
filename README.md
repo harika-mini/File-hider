@@ -56,7 +56,7 @@ Before starting to use this project make sure that you add your unique password 
    - The file will be encrypted before hiding.
 
 4. **Accessing Hidden Files**:
-   - You can retrieve a hidden file by providing the appropriate decryption key.
+   - You can retrieve a hidden file by providing the appropriate Password.
    
 ## MVC Architecture Breakdown
 
